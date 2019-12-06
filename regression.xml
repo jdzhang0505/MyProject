@@ -1,0 +1,14 @@
+<suite name="regression-testsuite">
+	<test name="Regression Testsuite">
+		<groups>
+		   
+			<run>
+				<include name="bike"></include>
+				<include name="cars"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.nopcommerce.TestMaven1.TestNG_Grouping"></class>
+		</classes>
+	</test>
+</suite>

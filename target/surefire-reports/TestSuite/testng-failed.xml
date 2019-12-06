@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="windows"/>
+    <parameter name="url" value="https://taap.expedia.cn/"/>
+    <classes>
+      <class name="PageClassesUseGrid.SeleniumGrid_ParallelTestFramework">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- PageClassesUseGrid.SeleniumGrid_ParallelTestFramework -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" verbose="0" name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="windows"/>
+    <parameter name="url" value="https://taap.expedia.cn/"/>
+    <classes>
+      <class name="PageClassesUseGrid.SeleniumGrid_ParallelTestFramework">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- PageClassesUseGrid.SeleniumGrid_ParallelTestFramework -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

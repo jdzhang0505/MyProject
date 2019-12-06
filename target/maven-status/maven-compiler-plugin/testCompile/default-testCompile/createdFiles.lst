@@ -1,0 +1,5 @@
+PageClassesUseGrid\TestSuiteBase.class
+PageClassesUseGrid\SeleniumGridParallelTest.class
+PageClassesUseGrid\SearchPageFactory.class
+PageClassesUseGrid\SeleniumGrid_ParallelTestFramework.class
+com\nopcommerce\TestMaven1\TestNG_Grouping.class

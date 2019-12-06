@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression-testsuite" duration-ms="40" started-at="2019-12-05T05:20:28Z" finished-at="2019-12-05T05:20:28Z">
+    <groups>
+      <group name="cars">
+        <method signature="TestNG_Grouping.testcaraudi()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testcaraudi" class="com.nopcommerce.TestMaven1.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testcarnisa()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testcarnisa" class="com.nopcommerce.TestMaven1.TestNG_Grouping"/>
+      </group> <!-- cars -->
+      <group name="audi">
+        <method signature="TestNG_Grouping.testcaraudi()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testcaraudi" class="com.nopcommerce.TestMaven1.TestNG_Grouping"/>
+      </group> <!-- audi -->
+      <group name="nisa">
+        <method signature="TestNG_Grouping.testcarnisa()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testcarnisa" class="com.nopcommerce.TestMaven1.TestNG_Grouping"/>
+      </group> <!-- nisa -->
+      <group name="bike">
+        <method signature="TestNG_Grouping.testbikea()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testbikea" class="com.nopcommerce.TestMaven1.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testbikeb()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testbikeb" class="com.nopcommerce.TestMaven1.TestNG_Grouping"/>
+      </group> <!-- bike -->
+    </groups>
+    <test name="Regression Testsuite" duration-ms="40" started-at="2019-12-05T05:20:28Z" finished-at="2019-12-05T05:20:28Z">
+      <class name="com.nopcommerce.TestMaven1.TestNG_Grouping">
+        <test-method status="PASS" signature="testbikea()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testbikea" duration-ms="8" started-at="2019-12-05T05:20:28Z" finished-at="2019-12-05T05:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbikea -->
+        <test-method status="PASS" signature="testbikeb()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testbikeb" duration-ms="0" started-at="2019-12-05T05:20:28Z" finished-at="2019-12-05T05:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbikeb -->
+        <test-method status="PASS" signature="testcaraudi()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testcaraudi" duration-ms="0" started-at="2019-12-05T05:20:28Z" finished-at="2019-12-05T05:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaraudi -->
+        <test-method status="PASS" signature="testcarnisa()[pri:0, instance:com.nopcommerce.TestMaven1.TestNG_Grouping@6615435c]" name="testcarnisa" duration-ms="1" started-at="2019-12-05T05:20:28Z" finished-at="2019-12-05T05:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcarnisa -->
+      </class> <!-- com.nopcommerce.TestMaven1.TestNG_Grouping -->
+    </test> <!-- Regression Testsuite -->
+  </suite> <!-- regression-testsuite -->
+</testng-results>
